@@ -1,0 +1,28 @@
+doctype html
+html(lang="en")
+    head
+        title passport-porta
+        link(rel="stylesheet", href="bootstrap/dist/css/bootstrap.css")
+        script(src="jquery/dist/jquery.js")
+        script(src="bootstrap/dist/js/bootstrap.js")
+    body
+        nav.navbar.navbar-expand-lg.navbar-dark.bg-dark
+            .container
+                a.navbar-brand(href='#') Knowledgebase
+                button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarsExample05', aria-controls='navbarsExample05', aria-expanded='false', aria-label='Toggle navigation')
+                    span.navbar-toggler-icon
+                #navbarsExample05.collapse.navbar-collapse
+                    ul.navbar-nav.mr-auto
+                        li.nav-item.active
+                            a.nav-link(href='/')
+                                | Home
+                                span.sr-only (current)
+                        li.nav-item
+                            a.nav-link(href='/articles/new') Add Article
+
+        .container
+            block content
+            br
+            hr
+            footer
+                p Copyright &copy; 2018

@@ -1,0 +1,27 @@
+{
+  "name": "passport-portal",
+  "description": "认证系统",
+  "main": "index.js",
+  "authors": [
+    "liuren <liuren@cc1st.com>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "node",
+    "bower",
+    "koa"
+  ],
+  "homepage": "https://github.com/SawWu/passport-portal",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.1.0",
+    "jquery": "^3.3.1"
+  }
+}
