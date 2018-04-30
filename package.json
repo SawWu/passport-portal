@@ -23,7 +23,11 @@
   },
   "homepage": "https://github.com/SawWu/passport-portal#readme",
   "dependencies": {
-    "koa": "^2.5.1"
+    "koa": "^2.5.1",
+    "koa-router": "^7.4.0",
+    "koa-views": "^6.1.4",
+    "mongoose": "^5.0.16",
+    "pug": "^2.0.3"
   },
   "devDependencies": {
     "nodemon": "^1.17.3"
