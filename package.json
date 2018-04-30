@@ -1,0 +1,31 @@
+{
+  "name": "passport-portal",
+  "version": "1.0.0",
+  "description": "认证系统",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SawWu/passport-portal.git"
+  },
+  "keywords": [
+    "node",
+    "bower",
+    "koa"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SawWu/passport-portal/issues"
+  },
+  "homepage": "https://github.com/SawWu/passport-portal#readme",
+  "dependencies": {
+    "koa": "^2.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
+}
